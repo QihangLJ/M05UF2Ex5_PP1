@@ -42,27 +42,7 @@ namespace M03UF2EX1
                         Console.WriteLine(MsgResult + intResult);
 
                         break;
-                    case 'c':
-                    case 'C':
-                        Console.WriteLine(AskMinAndMax);
-                        min = Convert.ToInt32(Console.ReadLine());
-                        max = Convert.ToInt32(Console.ReadLine());
-                        intResult = ExMenu.RandomNumber(min, max);
-                        Console.WriteLine(MsgResult + intResult);
-
-                        break;
-                    case 'd':
-                    case 'D':
-                        Console.WriteLine(AskText);
-                        inputText = Console.ReadLine();
-                        intResult = ExMenu.CountCharacter(inputText);
-                        Console.WriteLine(MsgResult + intResult);
-
-                        break;
-                    case 'e':
-                    case 'E':
-                        exit = true;
-                        break;
+        
                 }
             }
         }
