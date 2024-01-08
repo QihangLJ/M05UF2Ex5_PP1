@@ -57,7 +57,7 @@ namespace M03UF2EX1
                         inputText = Console.ReadLine();
                         intResult = ExMenu.CountCharacter(inputText);
                         Console.WriteLine(MsgResult + intResult);
-
+                        
                         break;
                     case 'e':
                     case 'E':
