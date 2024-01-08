@@ -50,14 +50,7 @@ namespace M03UF2EX1
                         intResult = ExMenu.RandomNumber(min, max);
                         Console.WriteLine(MsgResult + intResult);
 
-                        break;
-                    case 'd':
-                    case 'D':
-                        Console.WriteLine(AskText);
-                        inputText = Console.ReadLine();
-                        intResult = ExMenu.CountCharacter(inputText);
-                        Console.WriteLine(MsgResult + intResult);
-
+                       
                         break;
                     case 'e':
                     case 'E':
